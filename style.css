@@ -1,0 +1,65 @@
+/* General styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdf6f0; /* light cream background */
+  text-align: center;
+}
+
+header {
+  background-color: #ff6f61; /* coral red header */
+  color: white;
+  padding: 30px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.feature {
+  margin: 25px auto;
+  padding: 25px;
+  max-width: 550px;
+  background: #ffffff; /* white card */
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffb347; /* orange button */
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffcc80; /* lighter orange on hover */
+}
+
+p {
+  font-size: 1.1em;
+  margin-top: 10px;
+  color: #333;
+}
+
+footer {
+  padding: 15px;
+  background: #ffe5d9; /* light pastel footer */
+  margin-top: 30px;
+}

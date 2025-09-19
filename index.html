@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Prototype</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-rocket"></i> Hackathon Solution</h1>
+    <p>Polished Prototype Ready for Submission</p>
+  </header>
+
+  <!-- Feature 1 -->
+  <section class="feature">
+    <h2><i class="fas fa-keyboard"></i> Feature 1: Submit Info</h2>
+    <input type="text" id="userInput" placeholder="Enter your data...">
+    <button onclick="displayInput()"><i class="fas fa-paper-plane"></i> Submit</button>
+    <p id="displayOutput"></p>
+  </section>
+
+  <!-- Feature 2 -->
+  <section class="feature">
+    <h2><i class="fas fa-lightbulb"></i> Feature 2: Dynamic Insights</h2>
+    <button onclick="generateInsight()"><i class="fas fa-chart-line"></i> Generate Insight</button>
+    <p id="insightOutput"></p>
+  </section>
+
+  <!-- Feature 3 -->
+  <section class="feature">
+    <h2><i class="fas fa-chart-pie"></i> Feature 3: Counter Analytics</h2>
+    <p>Current Count: <span id="counter">0</span></p>
+    <button onclick="increaseCounter()"><i class="fas fa-plus"></i> Increase</button>
+    <button onclick="decreaseCounter()"><i class="fas fa-minus"></i> Decrease</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Hackathon Prototype</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
